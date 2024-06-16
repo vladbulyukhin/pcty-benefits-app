@@ -1,0 +1,33 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "position": "Staff Frontend Engineer",
+      "salaryPerPaycheck": 2000
+    },
+    {
+      "id": "2",
+      "name": "David Smith",
+      "position": "Staff Backend Engineer",
+      "salaryPerPaycheck": 2000
+    }
+  ],
+  "dependents": [
+    {
+      "id": "1",
+      "name": "Jane Doe",
+      "employeeId": "1"
+    },
+    {
+      "id": "2",
+      "name": "Johnie Doe",
+      "employeeId": "1"
+    },
+    {
+      "id": "3",
+      "name": "John Smith",
+      "employeeId": "2"
+    }
+  ]
+}
